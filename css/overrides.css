@@ -1,0 +1,116 @@
+body{
+    background-color:#ffffff;
+}
+
+a{
+    color:#000;
+}
+
+div#navbarNav.navbar-collapse.justify-content-end.px-0 > ul > li > a{
+    font-size:18px;
+    font-family:Helvetica Now Display Regular;
+}
+
+.nav-selected > a{
+    font-family: Helvetica Now Display ExtraBold!important;
+}
+
+
+
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link{
+    background-color:#ccc;
+    color: #fff;
+    /* font-size:18px; */
+    border-radius: 0px;
+    font-family: Helvetica Now Display Bold;
+}
+
+.hide-menu-selected{
+    font-size:18px;
+}
+
+
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link.active,
+.sidebar-nav ul .sidebar-item>.sidebar-link.active {
+    background-color:#fff;
+    color: #cccccc;
+}
+
+.left-sidebar {
+    border-right: 0px;
+}
+
+.simplebar-content{
+    background:#F2F2F2;
+}
+
+.nav-small-cap{
+    color:#999999;
+}
+
+.nav-header{
+    font-size:24px;
+    color:#999999;
+    padding-left: 24px;
+    font-family: Helvetica Now Display Bold;
+}
+
+.sidebar-nav ul .sidebar-item .sidebar-link {
+    color: #808080;
+}
+
+.nav-footer{
+    color:#B3B3B3;
+}
+
+span.hide-menu{
+    font-size:14px;
+}
+
+.nav-footer{
+    font-size:8px;
+    text-align:center;
+}
+
+
+
+h2{
+    color:#B3B3B3;
+    font-family: Helvetica Now Display Bold;
+    font-size:72px;
+}
+
+h4{
+    font-family: Helvetica Now Display Bold;
+    color:#B3B3B3;
+    font-size: 16px;
+}
+
+p{
+    color:#B3B3B3;
+    font-size: 9px;
+}
+
+
+#car-logo{
+    margin-right:20px;
+    margin-bottom:20px;
+    width:22%;
+}
+
+.top-navbar{
+    border-bottom: 2px solid #ED1E79!important;
+}
+
+.sidebar-nav{
+    background-color:#F2F2F2;
+    margin-left:30px;
+    margin-top:30px;
+    width:100%;
+    padding: 0px!important;
+    height: 50%;
+}
+
+.brand-logo {
+    min-height: 72px;
+}
