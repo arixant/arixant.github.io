@@ -6,6 +6,10 @@ a{
     color:#000;
 }
 
+a:hover {
+    color: #ED1E79;
+  }
+
 div#navbarNav.navbar-collapse.justify-content-end.px-0 > ul > li > a{
     font-size:18px;
     font-family:Helvetica Now Display Regular;
