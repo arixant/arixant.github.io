@@ -3071,7 +3071,7 @@ progress {
 }
 
 .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
-    background-color: var(--bs-secondary-bg)
+    background-color: #ED1E79;
 }
 
 .form-control-plaintext {

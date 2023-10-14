@@ -115,6 +115,12 @@ p{
     height: 50%;
 }
 
+.sidebar-nav ul .sidebar-item .sidebar-link:hover {
+    background-color: rgba(237, 30, 121, 0.1);
+    color: #ED1E79;
+}
+
+
 .brand-logo {
     min-height: 72px;
 }
