@@ -2,7 +2,7 @@
 	'use strict'
 
 	// Changeable constant (変更可能な定数パラメータ)
-	const ASSET_FILES = ["sprite1.png", "sprite2.png"]
+	const ASSET_FILES = ["sprite2.png"]
 	const KINKA_SIZE = 50
 	const KINKA_BOTTOM_OFFSET = 10
 	const KINKA_BOTTOM_OFFSET_TAP = KINKA_SIZE + 30
@@ -59,7 +59,7 @@
 	}
 
 	// キンカチョウのクラス
-	class Kinka {
+	class Kinka2 {
 		constructor(element) {
 			this._initStyles(element)
 			
