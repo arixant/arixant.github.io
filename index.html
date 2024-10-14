@@ -1,240 +1,135 @@
-<!--  
-  ╔═.✵.══════════════════════════════════════╗
-  ✩                                          ✩ 
-  ⊹   search tags before deployment          ⊹
-  ✩   #cleanup - to clean up CSS             ✩
-  ⊹                                          ⊹
-  ╚══════════════════════════════════════.✵.═╝ 
--->
-
-
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Arixant</title>
-  <link rel="" type="image/png" href="img/favicon.png" />
-  <link rel="stylesheet" href="css/fonts.css"/>
-  <link rel="stylesheet" href="css/styles.css"/>
-  <link rel="stylesheet" href="css/overrides.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <title>⋆.𓅫 .𓅨･ﾟ</title>  
+  <style>
+    html, body {
+      margin: 0;
+      height: 100vh;
+      width: 100vw;
+      background-color: #fcfcfc;
+      letter-spacing: 0.05em;
+      font-size: 16px;
+      color: #c5c5c5;
+      font-family: 'Press Start 2P', cursive;
+    }
+
+    a:link { color:#c5c5c5; text-decoration:none }
+    a:visited { color:#c5c5c5; text-decoration:none }
+    a:hover { color:#c5c5c5; text-decoration:none }
+    a:active { color:#c5c5c5; text-decoration:none }
+
+    .logo {
+      pointer-events: none;
+      position: absolute;
+      margin: 0px auto;
+      box-sizing: border-box;
+      background-image: url('kinkajs_8bit.png');
+      background-size: contain;
+      width: 70%;
+      height: 200px;
+      top: 23%;
+      left: 15%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .title {
+      pointer-events: none;
+      position: absolute;
+      bottom: 30%;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      text-align: center;
+    }
+
+    .github {
+      cursor: pointer;
+      position: absolute;
+      background-image: url('GitHub-Mark-32px.png');
+      background-size: contain;
+      width: 32px;
+      height: 32px;
+      bottom: 10%;
+      left: calc(50% - 16px);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .gethere {
+      cursor: pointer;
+      position: absolute;
+      bottom: calc(10% - 40px);
+      left: 0;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .blinking{
+      animation:blink 0.8s ease-in-out infinite alternate;
+    }
+    @keyframes blink{
+        0% {opacity:0.2;}
+        100% {opacity:1;}
+    }
+
+    .perch {
+      position: absolute;
+      background-color: #777;
+      height: 10px;
+      min-width: 20px;
+      width: 30%;
+      box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .per1 {
+      top: 15%;
+      left: 40px;
+    }
+
+    .per2 {
+      top: 15%;
+      right: 40px;
+    }
+
+    .per3 {
+      top: 50%;
+      left: calc(50% - 15%);
+    }
+
+    .per4 {
+      bottom: 15%;
+      left: 40px;
+    }
+
+    .per5 {
+      bottom: 15%;
+      right: 40px;
+    }
+  </style>
 </head>
-
 <body>
-  <!--  Body Wrapper -->
-  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-    data-sidebar-position="fixed" data-header-position="fixed">
-    <!-- Sidebar Start -->
-    <aside class="left-sidebar">
-      <!-- Sidebar scroll-->
-      <div>
-        <div class="brand-logo d-flex align-items-center justify-content-between top-navbar">
-          <a href="./index.html" class="text-nowrap logo-img">
-            <img src="img/logo.png" width="180" alt="" />
-          </a>
-          <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
-            <i class="ti ti-x fs-8"></i>
-          </div>
-        </div>
+  <script src="kinka.js"></script>
+  <div class="kinka "></div>
+  <div class="kinka kinkasp2 perch2"></div>
+  <!-- <div class="kinka kinkasp3 perch3"></div>
+  <div class="kinka kinkasp1 perch4"></div>
+  <div class="kinka kinkasp2 perch5"></div> -->
 
-
-        <!-- Sidebar navigation-->
-        <nav class="sidebar-nav scroll-sidebar">
-          <ul id="sidebarnav">
-            <li class="nav-header">
-              <i class="fs-4"></i>
-              <span class="">Encyclopedia<br> 
-                Index.</span>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Advertisements</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Books</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Brochure</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Parts Catalog</span>
-              </a>
-            </li>
-            <li class="sidebar-item selected">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu-selected">Demo Cars</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Motorsports History</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">MR-S Restoration Project</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Tutorials</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Translated Manuals</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Videos</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-layout-dashboard"></i>
-                </span>
-                <span class="hide-menu">Website Archives</span>
-              </a>
-            </li>            
-          </ul>
-          <div class="unlimited-access hide-menu position-relative mb-7 mt-5 rounded nav-footer">
-            <div class="d-flex">
-              <div class="me-3 nav-footer">powered by mrs_archive, all rights reserved to original copyright holders. brochure scans provided by Toyota Japan 20XX</div>
-            </div>
-          </div>
-        </nav>
-        <!-- End Sidebar navigation -->
-      </div>
-      <!-- End Sidebar scroll-->
-    </aside>
-    <!--  Sidebar End -->
-    <!--  Main wrapper -->
-    <div class="body-wrapper">
-      <!--  Header Start -->
-      <header class="app-header top-navbar">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <ul class="navbar-nav">
-            <li class="nav-item d-block d-xl-none">
-              <a class="nav-link sidebartoggler nav-icon-hover" id="headerCollapse" href="javascript:void(0)">
-                <i class="ti ti-menu-2"></i>
-              </a>
-            </li>
-          </ul>
-
-          <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
-
-
-
-
-
-            <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-
-              <li><a href="#" target="_blank" style="padding:10px">Home</a></li>
-              <li><a href="#" target="_blank" style="padding:10px">Shop</a></li>
-              <li class="nav-selected"><a href="#" target="_blank" style="padding:10px">Encyclopedia</a></li>
-              <li><a href="#" target="_blank" style="padding:10px">Contact</a></li>
-              <li><a href="#" target="_blank" style="padding:10px">My Cart</a></li>
-
-            </ul>
-
-
-
-          </div>
-        </nav>
-      </header>
-      <!--  Header End -->
-
-
-      <div class="container-fluid">
-        <!--  Row 1 -->
-        <div class="row">
-          <div class="col-lg-12 d-flex align-items-strech">
-            <div class="card w-100">
-              <div class="card-body">
-                <div class="d-sm-flex d-block align-items-center justify-content-between mb-9">
-                  <div class="mb-3 mb-sm-0">
-                    <h2 class="title">Demo Cars</h2>
-                    <h4 class="sub-text">The repository of every notable MR-S from Japan from 1999 - 2011.</h4>
-                    <p class="body-text">These cars are responsible as being the workhorses of RaD for the products we all use today <br>
-                      as well as sewing the bar for what these cars can do and can look like.</p>
-
-                        <div>
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                          <img id="car-logo" alt=".." src="img/001.png" />
-                       </div>
-
-                  </div>
-
-
-
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-
+  
+  <div class="title">ant's room</div>
+  <div class="perch per1"></div>
+  <div class="perch per2"></div>
+  <div class="perch per3"></div>
+  <div class="perch per4"></div>
+  <div class="perch per5"></div>
 </body>
-
 </html>
